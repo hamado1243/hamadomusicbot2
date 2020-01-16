@@ -11,7 +11,7 @@ client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "536240630704373781") return;
+  if (message.author.id !== "346651050427678721") return;
 
   
   if (message.content.startsWith(prefix + 'wat')) {
@@ -55,4 +55,4 @@ if (message.content.startsWith(prefix + 'ply')) {
 });
 
 
-client.login(process.env.BOT_TOKEN);// Made By:H2jaan.
+client.login(process.env.BOT_TOKEN);// Made By:Hamado.
